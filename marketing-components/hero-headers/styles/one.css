@@ -1,0 +1,53 @@
+main {
+    background-image: url(../assets/image/pokemon-fundo-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width: 100vw;
+    height: 100vh;
+    border: 4px solid black;
+    
+    padding: 112px 64px;
+    gap: 80px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 32px;
+}
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+p {
+    font-style: 18px;
+    font-weight: 400;
+}
+.aside-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.aside-actions {
+    display: flex;
+    gap: 16px;
+}
+.btn-primary {
+    background-color: black;
+    color: white;
+}
+button {
+    border: 1px solid black;
+    padding: 12px 24px;
+    font-size: 16px;
+}
+img {
+    width: 700px;
+    height: 600px;
+}
