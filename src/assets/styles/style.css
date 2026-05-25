@@ -147,3 +147,36 @@ h2 {
 .rodape-2 {
     font-size: 18px;
 }
+@media (max-width: 400px) {
+    header, main, footer, .header-nav, nav, .header-button, aside, .main-button, .footer-content, .footer-input, .footer-rodape, .rodape-1 {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        
+        gap: 15px;
+    }
+    header > img {
+        width: 100%;
+    }
+    main {
+        padding: 40px 15px;
+    }
+    h1, aside > p, main > img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    nav > button, .main-button > button, .header-button > button {
+        justify-content: center;
+    }
+    input {
+        width: 100%;
+    }
+}
